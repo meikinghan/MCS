@@ -9,8 +9,8 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
-deviceId = "DzJn0lNW"
-deviceKey = "Qtlc6jOqfZsYOVVN"
+deviceId = "D9xL0BLU"
+deviceKey = "3pTw0Etr4Xz0o0Ib"
 
 sensor_args = { '11': Adafruit_DHT.DHT11,
                 '22': Adafruit_DHT.DHT22,
